@@ -26,7 +26,7 @@ import org.springframework.util.Assert;
  *
  * @author Phillip Webb
  */
-public class VehicleDetails XXX {
+public class VehicleDetails {
 
 	private final String make;
 
