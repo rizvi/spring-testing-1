@@ -2553,6 +2553,16 @@
       <groupId>org.springframework</groupId>
       <artifactId>spring-test</artifactId>
     </dependency>
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>bootstrap</artifactId>
+			<version>3.0.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>jquery</artifactId>
+			<version>2.0.3-1</version>
+		</dependency>
   </dependencies>
   <build>
     <pluginManagement>
@@ -2825,7 +2835,6 @@
     <plugins>
       <plugin>
         <artifactId>maven-help-plugin</artifactId>
-        <version>2.2</version>
       </plugin>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
@@ -2835,11 +2844,9 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>build-helper-maven-plugin</artifactId>
-        <version>1.10</version>
       </plugin>
       <plugin>
         <artifactId>maven-surefire-plugin</artifactId>
-        <version>2.18.1</version>
         <executions>
           <execution>
             <id>default-test</id>
@@ -2876,7 +2883,6 @@
       </plugin>
       <plugin>
         <artifactId>maven-enforcer-plugin</artifactId>
-        <version>1.4</version>
         <executions>
           <execution>
             <id>enforce-rules</id>
@@ -2900,7 +2906,6 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
-        <version>1.5.6.RELEASE</version>
         <executions>
           <execution>
             <goals>
@@ -2917,7 +2922,6 @@
       </plugin>
       <plugin>
         <artifactId>maven-clean-plugin</artifactId>
-        <version>2.6.1</version>
         <executions>
           <execution>
             <id>default-clean</id>
@@ -2930,7 +2934,6 @@
       </plugin>
       <plugin>
         <artifactId>maven-resources-plugin</artifactId>
-        <version>2.6</version>
         <executions>
           <execution>
             <id>default-testResources</id>
@@ -2997,7 +3000,6 @@
       </plugin>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.1</version>
         <executions>
           <execution>
             <id>default-compile</id>
@@ -3017,7 +3019,6 @@
       </plugin>
       <plugin>
         <artifactId>maven-install-plugin</artifactId>
-        <version>2.5.2</version>
         <executions>
           <execution>
             <id>default-install</id>
@@ -3030,7 +3031,6 @@
       </plugin>
       <plugin>
         <artifactId>maven-deploy-plugin</artifactId>
-        <version>2.8.2</version>
         <executions>
           <execution>
             <id>default-deploy</id>
@@ -3043,7 +3043,6 @@
       </plugin>
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
-        <version>3.5.1</version>
         <executions>
           <execution>
             <id>default-site</id>
